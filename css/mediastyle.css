@@ -1,0 +1,133 @@
+/* >768px */
+@media (min-width:768px){
+/* Hero */
+.hero-text{
+    padding: 20px 30px;
+}
+.hero-text-2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.hero-im-1{
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    border: solid 4px;
+    border-color: white;
+}
+.hero-inscribirme,
+.hero-info {
+    width: 110px;
+    height: 50px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 12px;
+    padding-left: 12px;
+}
+.hero-info{
+    padding-left: 16px;
+}
+/* CARDS */
+.container-cards{
+    height: 1620px;
+    gap:45px;
+}
+.ventajas h2 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.ventajas p {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 30px;
+  }
+.agilidad-im img,
+.tonificacion-im img,
+.tensiones-im img {
+   width: 250px;
+   height: 250px;
+   border: solid 4px;
+   border-color: white;
+   border-radius: 150px;
+}
+.agilidad-text,
+.tonificacion-text,
+.tensiones-text {
+   color: white;
+   font-size: 20px;
+   font-size: 400;
+   text-align: center;
+   padding: 20px 30px;
+}
+.agilidad-tittle h3,
+.tonificacion-tittle h3,
+.tensiones-tittle h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+.agilidad-tittle,
+.tonificacion-tittle,
+.tensiones-tittle {
+    margin-top: 15px;
+}
+/* Footer */
+.footer{
+    height: 700px;
+    padding: 20px 30px;
+    gap: 30px;
+    padding: 20px 30px;
+}
+.footer-im{
+    margin-top: 30px;
+    padding: 20px;
+}
+.footer img{
+    width: 200px;
+    height: 200px;
+    border-radius: 180px;
+    border: solid 4px;
+    border-color: white; 
+    padding: 15px;  
+ }
+ .footer-text{
+    margin-top: 20px;
+ }
+ .footer-text p{
+    font-size: 20px;
+    font-size: 500;
+ }
+ .divisor hr,
+ .divisor-1 hr{
+    width: 96%;
+    height: 4px;
+    background-color: white;
+ }
+ .footer-inscribirme{
+    width: 130px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 17px;
+    padding-top: 8px;
+ }
+ .footer-contacto a{
+    font-size: 20px;
+    font-size: 500;
+    text-align: center;
+ }
+ .redes-icons{
+    font-size: 40px;
+ }
+}
+/* >992px */
+@media (min-width:992px){
+    .navbar-categories i {
+        display: none;
+    }
+    #toggle-menu{
+        display: none;
+    }
+}
